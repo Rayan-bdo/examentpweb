@@ -14,11 +14,93 @@ body{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-color: aliceblue;
+    background-color: rgb(0, 255, 128);
 }
 .rond2{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-color: aliceblue;
+    background-color: rgb(0, 136, 255);
+}
+.navbar2{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 217, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.carre1{
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    background-color: rgb(0, 0, 0);
+}
+.carre2{
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    background-color: rgb(0, 0, 0);
+}
+.carre3{
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+    background-color: rgb(0, 0, 0);
+}
+.navbar3{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.rectangle1{
+    height: 250px;
+    width: 450px;
+    border-radius: 5%;
+    background-color: rgb(209, 202, 202);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border: none;
+}
+.rectangle1:hover{
+background-color: gray;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.rectangle2{
+    height: 250px;
+    width: 450px;
+    border-radius: 5%;
+    background-color: rgb(206, 201, 201);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    border: none;
+}
+.rectangle2:hover{
+background-color: gray;
+}
+.image1{
+    height: 100px;
+    width: 100px;
+    background-image: url(./assets/images/louis-vuitton-sac-neverfull-mm--M46975_PM2_Front_view.webp);
+    background-size: cover;
+    background-position: center;
+}
+.image2{
+    height: 100px;
+    width: 100px;
+    background-image: url(./assets/images/louis-vuitton-sac-neverfull-mm--M46975_PM2_Front_view.webp);
+    background-size: cover;
+    background-position: center;
 }
